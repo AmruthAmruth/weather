@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.w-parent{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(227,7,63);
+    background: linear-gradient(0deg, rgba(227,7,63,1) 0%, rgba(164,17,166,1) 100%);    color: white;
+    padding-top: 2rem;
+}
+.w-parent>h1{
+    font-family: 'ADLaM Display', cursive;
+font-size: 3.5rem;
+}
+.w-search{
+    margin-top: 2rem;
+}
+.w-search>input{
+    width: 35%;
+    height: 2rem;
+    padding: 25px;
+    border-radius: 52px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+.w-search>i{
+    font-size: 24px;
+    margin-left: 1rem;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    background: white;
+    border-radius: 50px;
+    padding: 1rem;
+
+}
+.w-search>i:hover{
+    background:rgb(2, 57, 174);
+    color: white;
+    border: 2px solid white;
+}
+.w-text{ 
+    margin-top: 2rem;
+}
+.w-text>p{
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: 'Bree Serif', serif;
+}
+.w-text>h2{
+    margin-top: 15px;
+    font-size: 45px;
+    font-family: 'Bree Serif', serif;
+}
+.boxs{
+    margin: auto;
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+}
+.box{
+    font-family: 'Bree Serif', serif;
+    margin-top: 3rem;
+    width: max-content;
+    border: 1px solid white;
+    padding: 0rem 6rem;
+    border-radius: 50px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.box>p{
+    font-size: 20px;
+}
+.box>h2{
+    font-size: 45px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .boxs{
+        margin: auto;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .w-parent{
+        height: 100vh;
+    }
+    .box{
+        margin-top: 2rem;
+        padding: 1rem 5rem;
+        
+         }
+
+         
+        .box>h2{
+            font-size: 30px;
+        }
+}
+
+@media screen and (max-width: 800px){
+    .w-parent>h1{
+        font-size: 2rem;
+    }
+    .w-search>input{
+        width: 70%;
+        height: 2rem;
+        padding: 25px;
+        border-radius: 52px;
+        font-size: 20px;
+        font-family: 'Bree Serif', serif;
+    }
+}
